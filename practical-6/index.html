@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: gainsboro;
+        }
+        *{
+           padding: 0;
+           margin: 0;
+           box-sizing: border-box; 
+        }
+        #container{
+            display: inline-flex;
+        }
+        .box{
+            width: 300px;
+            height: 400px;
+            overflow: hidden;
+            margin-top: 50px;
+            text-align: justify;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+        }
+        
+        #box1{
+            background-color: white;
+            margin-left: 100px;
+        }
+        #box2{
+            background-color: white;
+        }
+        #box3{
+            background-color: white;
+        }
+        #box4{
+            background-color: white;
+        }
+        .box img{
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .box h4{
+            text-align: center;
+        }
+        .button{
+            display: block;
+            margin-top: 40px;
+            background-color: red;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .button:hover{
+            background-color: blue;
+        }
+        .button a{
+            text-decoration: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Assignment-6</title>
+</head>
+<body>   
+    <h1 style="color: white; text-align: center; margin-bottom: 40px;" >PRACTICAL-6: CREAT FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES.</h1>
+    <div id="container">
+        <div class="box" id="box1">
+            <div  class="img"><img src="../web-essentials/html-image.png"></div>
+            <h4>Introduction to HTML</h4>
+            <p>
+                HTML is the language in which most websites are written.
+                HTML is used to create pages and make them functional.
+            </p>
+            <div class="button" style="text-align: center;">
+                <a href="../web-essentials/HTML.html">Read More</a>
+            </div>
+        </div>
+        <div class="box" id="box2">
+           <div  class="img"> <img class="img" src="../web-essentials/css-image.png"></div> 
+            <h4>Introduction to CSS</h4>
+            <p>
+                Cascading Style Sheets (CSS) is used to format the layout of a webpage
+                 and styling it.
+
+            </p>
+            <div class="button" style="text-align: center;">
+                <a href="../web-essentials/CSS.html">Read More</a>
+            </div>   
+             </div>
+        <div class="box" id="box3">
+            <div class="img"><img class="img" src="../web-essentials/javascript-image.png"></div> 
+            <h4>Introduction to JavaScript</h4>
+            <p>
+                JavaScript (js) is a object-oriented programming language
+                which is used bywebsites for scripting the webpages.
+            </p>
+            <div class="button" style="text-align: center;">
+                <a href="../web-essentials/JS.html" >Read More</a>
+            </div>     
+           </div>
+        <div class="box" id="box4">
+        <div  class="img"><img class="img" src="../web-essentials/bootstrap-image.png"></div> 
+            <h4>Introduction to Bootstrap</h4>
+            <p>
+                Bootstrap is a free front-end framework for faster and easier development 
+                of websites.
+            </p>    
+            <div class="button" style="text-align: center;">
+                <a href="../web-essentials/BS.html">Read More</a>
+            </div>        
+        </div>
+    </div>
+</body>
+</html>
